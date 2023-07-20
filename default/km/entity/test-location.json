@@ -1,0 +1,152 @@
+{
+  "$id": "test-location",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "61 9th Ave",
+      "postalCode": "10011",
+      "region": "NY"
+    },
+    "addressHidden": false,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus placerat justo a viverra. Quisque ut congue tellus, vitae fermentum velit. Suspendisse sed gravida libero. Etiam pulvinar tincidunt augue vitae fermentum. Maecenas tortor nunc, ullamcorper eu tortor sed, vestibulum suscipit libero. \\nPraesent sit amet pulvinar massa. Proin mattis tellus tristique neque ullamcorper, vel vestibulum lorem dapibus. Vivamus et magna in justo posuere imperdiet sit amet amour tellus.",
+    "emails": [
+      "test@test.com"
+    ],
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "instagramHandle": "instagram",
+    "logo": {
+      "description": "Lorem ipsum logo.",
+      "details": "Lorem ipsum logo.",
+      "image": {
+        "alternateText": "Lorem ipsum logo.",
+        "height": 5000,
+        "sourceUrl": "https://logos-download.com/wp-content/uploads/2020/06/Yext_Logo.png",
+        "thumbnails": [
+          {
+            "height": 5000,
+            "url": "https://a.mktgcdn.com/p/ee2MhPmqiJERt02WX3tGkkH-2CB9a8yX7gR8pWQKiUI/5000x5000.png",
+            "width": 5000
+          },
+          {
+            "height": 1900,
+            "url": "https://a.mktgcdn.com/p/ee2MhPmqiJERt02WX3tGkkH-2CB9a8yX7gR8pWQKiUI/1900x1900.png",
+            "width": 1900
+          },
+          {
+            "height": 150,
+            "url": "https://a.mktgcdn.com/p/ee2MhPmqiJERt02WX3tGkkH-2CB9a8yX7gR8pWQKiUI/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p/ee2MhPmqiJERt02WX3tGkkH-2CB9a8yX7gR8pWQKiUI/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/ee2MhPmqiJERt02WX3tGkkH-2CB9a8yX7gR8pWQKiUI/5000x5000.png",
+        "width": 5000
+      }
+    },
+    "mainPhone": "+12129943900",
+    "name": "Test Location",
+    "paymentOptions": [
+      "AMERICANEXPRESS",
+      "DISCOVER",
+      "MASTERCARD",
+      "VISA"
+    ],
+    "photoGallery": [
+      {
+        "description": "Lorem ipsum photo.",
+        "details": "Lorem ipsum photo.",
+        "image": {
+          "alternateText": "Lorem ipsum photo.",
+          "height": 878,
+          "sourceUrl": "https://a.mktgcdn.com/p/ldN8e6Xb-snsRXqH_z1S_6ru4sbu16N2s9V6uod6wV0/1560x878.jpg",
+          "thumbnails": [
+            {
+              "height": 878,
+              "url": "https://a.mktgcdn.com/p/ldN8e6Xb-snsRXqH_z1S_6ru4sbu16N2s9V6uod6wV0/1560x878.jpg",
+              "width": 1560
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/ldN8e6Xb-snsRXqH_z1S_6ru4sbu16N2s9V6uod6wV0/1560x878.jpg",
+          "width": 1560
+        }
+      },
+      {
+        "description": "Lorem ipsum photo.",
+        "details": "Lorem ipsum photo.",
+        "image": {
+          "alternateText": "Lorem ipsum photo.",
+          "height": 901,
+          "sourceUrl": "https://ml5enisp4q1t.i.optimole.com/cb:avo9~b5e4/w:auto/h:auto/q:mauto/https://interiorarchitects.com/wp-content/uploads/2021/09/Yext-NYC-07-1.jpg",
+          "thumbnails": [
+            {
+              "height": 901,
+              "url": "https://a.mktgcdn.com/p/u0yxxY6XdtLH4bu1u0AJNm7cj5VstDJ3l9GmCwWJgSo/1600x901.jpg",
+              "width": 1600
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/u0yxxY6XdtLH4bu1u0AJNm7cj5VstDJ3l9GmCwWJgSo/1600x901.jpg",
+          "width": 1600
+        }
+      }
+    ],
+    "slug": "[[entityId]]",
+    "timezone": "America/New_York",
+    "twitterHandle": "twitter"
+  },
+  "entityType": "location",
+  "labels": []
+}
