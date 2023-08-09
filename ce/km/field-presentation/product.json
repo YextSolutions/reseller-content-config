@@ -46,7 +46,7 @@
       "entryType": "SECTION",
       "fields": [
         {
-          "id": "richTextDescription",
+          "id": "richTextDescriptionV2",
           "visibleOnAdd": true
         },
         {
