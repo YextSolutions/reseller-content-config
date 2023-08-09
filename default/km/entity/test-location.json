@@ -11,7 +11,7 @@
       "region": "NY"
     },
     "addressHidden": false,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus placerat justo a viverra. Quisque ut congue tellus, vitae fermentum velit. Suspendisse sed gravida libero. Etiam pulvinar tincidunt augue vitae fermentum. Maecenas tortor nunc, ullamcorper eu tortor sed, vestibulum suscipit libero. \\nPraesent sit amet pulvinar massa. Proin mattis tellus tristique neque ullamcorper, vel vestibulum lorem dapibus. Vivamus et magna in justo posuere imperdiet sit amet amour tellus.",
+    "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
     "emails": [
       "test@test.com"
     ],
@@ -143,7 +143,7 @@
         }
       }
     ],
-    "slug": "[[entityId]]",
+    "slug": "index.html",
     "timezone": "America/New_York",
     "twitterHandle": "twitter"
   },
