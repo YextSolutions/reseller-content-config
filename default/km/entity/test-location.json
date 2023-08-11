@@ -1,407 +1,230 @@
 {
-  "$id": "ce_location",
-  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "$id": "test-location",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "61 9th Ave",
+      "postalCode": "10011",
+      "region": "NY"
+    },
+    "addressHidden": false,
+    "c_backgroundColor": "WHITE",
+    "description": "Lorem ipsum [[name]] dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "emails": [
+      "test@test.com"
+    ],
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "instagramHandle": "instagram",
+    "logo": {
+      "description": "Lorem ipsum logo.",
+      "details": "Lorem ipsum logo.",
+      "image": {
+        "alternateText": "Lorem ipsum logo.",
+        "height": 361,
+        "sourceUrl": "https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png",
+        "thumbnails": [
+          {
+            "height": 361,
+            "url": "https://a.mktgcdn.com/p/SeqPJQyAjwBUFkNxGq1X9Dr-irtWisCAJoM_eCEI2TU/361x361.png",
+            "width": 361
+          },
+          {
+            "height": 150,
+            "url": "https://a.mktgcdn.com/p/SeqPJQyAjwBUFkNxGq1X9Dr-irtWisCAJoM_eCEI2TU/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p/SeqPJQyAjwBUFkNxGq1X9Dr-irtWisCAJoM_eCEI2TU/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/SeqPJQyAjwBUFkNxGq1X9Dr-irtWisCAJoM_eCEI2TU/361x361.png",
+        "width": 361
+      }
+    },
+    "mainPhone": "+12129943900",
+    "name": "Local Business",
+    "paymentOptions": [
+      "AMERICANEXPRESS",
+      "DISCOVER",
+      "MASTERCARD",
+      "VISA"
+    ],
+    "photoGallery": [
+      {
+        "description": "Lorem ipsum photo.",
+        "details": "Lorem ipsum photo.",
+        "image": {
+          "alternateText": "Lorem ipsum photo.",
+          "height": 901,
+          "thumbnails": [
+            {
+              "height": 901,
+              "url": "http://a.mktgcdn.com/p/u0yxxY6XdtLH4bu1u0AJNm7cj5VstDJ3l9GmCwWJgSo/1600x901.jpg",
+              "width": 1600
+            },
+            {
+              "height": 349,
+              "url": "http://a.mktgcdn.com/p/u0yxxY6XdtLH4bu1u0AJNm7cj5VstDJ3l9GmCwWJgSo/619x349.jpg",
+              "width": 619
+            },
+            {
+              "height": 338,
+              "url": "http://a.mktgcdn.com/p/u0yxxY6XdtLH4bu1u0AJNm7cj5VstDJ3l9GmCwWJgSo/600x338.jpg",
+              "width": 600
+            },
+            {
+              "height": 110,
+              "url": "http://a.mktgcdn.com/p/u0yxxY6XdtLH4bu1u0AJNm7cj5VstDJ3l9GmCwWJgSo/196x110.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/u0yxxY6XdtLH4bu1u0AJNm7cj5VstDJ3l9GmCwWJgSo/1600x901.jpg",
+          "width": 1600
+        }
+      },
+      {
+        "description": "Lorem ipsum photo.",
+        "details": "Lorem ipsum photo.",
+        "image": {
+          "alternateText": "Lorem ipsum photo.",
+          "height": 878,
+          "thumbnails": [
+            {
+              "height": 878,
+              "url": "http://a.mktgcdn.com/p/ldN8e6Xb-snsRXqH_z1S_6ru4sbu16N2s9V6uod6wV0/1560x878.jpg",
+              "width": 1560
+            },
+            {
+              "height": 348,
+              "url": "http://a.mktgcdn.com/p/ldN8e6Xb-snsRXqH_z1S_6ru4sbu16N2s9V6uod6wV0/619x348.jpg",
+              "width": 619
+            },
+            {
+              "height": 338,
+              "url": "http://a.mktgcdn.com/p/ldN8e6Xb-snsRXqH_z1S_6ru4sbu16N2s9V6uod6wV0/600x338.jpg",
+              "width": 600
+            },
+            {
+              "height": 110,
+              "url": "http://a.mktgcdn.com/p/ldN8e6Xb-snsRXqH_z1S_6ru4sbu16N2s9V6uod6wV0/196x110.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/ldN8e6Xb-snsRXqH_z1S_6ru4sbu16N2s9V6uod6wV0/1560x878.jpg",
+          "width": 1560
+        }
+      },
+      {
+        "description": "Lorem ipsum photo.",
+        "details": "Lorem ipsum photo.",
+        "image": {
+          "alternateText": "Lorem ipsum photo.",
+          "height": 900,
+          "sourceUrl": "https://ml5enisp4q1t.i.optimole.com/cb:avo9~b5e4/w:auto/h:auto/q:mauto/https://interiorarchitects.com/wp-content/uploads/2021/09/Yext-NYC-03.jpg",
+          "thumbnails": [
+            {
+              "height": 900,
+              "url": "https://a.mktgcdn.com/p/VclTppzhe8YEnBUPvdtyV5IwSBkBjGor_hXw4CqXznA/1600x900.jpg",
+              "width": 1600
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/VclTppzhe8YEnBUPvdtyV5IwSBkBjGor_hXw4CqXznA/1600x900.jpg",
+          "width": 1600
+        }
+      },
+      {
+        "description": "Lorem ipsum photo.",
+        "details": "Lorem ipsum photo.",
+        "image": {
+          "alternateText": "Lorem ipsum photo.",
+          "height": 901,
+          "sourceUrl": "https://ml5enisp4q1t.i.optimole.com/cb:avo9~b5e4/w:auto/h:auto/q:mauto/https://interiorarchitects.com/wp-content/uploads/2021/09/Yext-NYC-05.jpg",
+          "thumbnails": [
+            {
+              "height": 901,
+              "url": "https://a.mktgcdn.com/p/ZL6YpGYoyYKTIzbVsJvVe7fIyENM_mDI1YZLp5nRDJg/1600x901.jpg",
+              "width": 1600
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/ZL6YpGYoyYKTIzbVsJvVe7fIyENM_mDI1YZLp5nRDJg/1600x901.jpg",
+          "width": 1600
+        }
+      },
+      {
+        "description": "Lorem ipsum photo.",
+        "details": "Lorem ipsum photo.",
+        "image": {
+          "alternateText": "Lorem ipsum photo.",
+          "height": 900,
+          "sourceUrl": "https://ml5enisp4q1t.i.optimole.com/cb:avo9~b5e4/w:auto/h:auto/q:mauto/https://interiorarchitects.com/wp-content/uploads/2021/09/Yext-NYC-09.jpg",
+          "thumbnails": [
+            {
+              "height": 900,
+              "url": "https://a.mktgcdn.com/p/8CoFil65sDsYg-BkGHwAQctfnU59_lVtOs2y6vWnhvs/1600x900.jpg",
+              "width": 1600
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/8CoFil65sDsYg-BkGHwAQctfnU59_lVtOs2y6vWnhvs/1600x900.jpg",
+          "width": 1600
+        }
+      }
+    ],
+    "slug": "index.html",
+    "timezone": "America/New_York",
+    "twitterHandle": "twitter"
+  },
   "entityType": "location",
-  "displayName": "Location",
-  "presentationEntries": [
-    {
-      "displayName": "Content",
-      "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Core Information",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "name",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "categories",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "address",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "addressHidden"
-        },
-        {
-          "id": "mainPhone",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "entityId",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "slug"
-        },
-        {
-          "id": "c_backgroundColor"
-        }
-      ]
-    },
-    {
-      "displayName": "Business Details",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "description"
-        },
-        {
-          "id": "hours"
-        },
-        {
-          "id": "additionalHoursText"
-        },
-        {
-          "id": "phoneticName"
-        },
-        {
-          "id": "paymentOptions"
-        },
-        {
-          "id": "priceRange"
-        },
-        {
-          "id": "geomodifier"
-        },
-        {
-          "id": "pickupAndDeliveryServices"
-        },
-        {
-          "id": "neighborhood"
-        },
-        {
-          "id": "blackOwnedBusiness"
-        },
-        {
-          "id": "what3WordsAddress"
-        },
-        {
-          "id": "covidMessaging"
-        },
-        {
-          "id": "proofOfVaccinationRequired"
-        },
-        {
-          "id": "fullyVaccinatedStaff"
-        },
-        {
-          "id": "featuredMessage"
-        }
-      ]
-    },
-    {
-      "displayName": "Contact, Websites, and Apps",
-      "displayNameTranslations": [
-        {
-          "localeCode": "en",
-          "value": "Contact, Websites and Apps"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "emails"
-        },
-        {
-          "id": "menuUrl"
-        },
-        {
-          "id": "orderUrl"
-        },
-        {
-          "id": "reservationUrl"
-        },
-        {
-          "id": "deliveryUrl"
-        },
-        {
-          "id": "websiteUrl"
-        },
-        {
-          "id": "localPhone"
-        },
-        {
-          "id": "alternatePhone"
-        },
-        {
-          "id": "tollFreePhone"
-        },
-        {
-          "id": "mobilePhone"
-        },
-        {
-          "id": "fax"
-        },
-        {
-          "id": "ttyPhone"
-        },
-        {
-          "id": "iosAppUrl"
-        },
-        {
-          "id": "androidAppUrl"
-        },
-        {
-          "id": "covid19InformationUrl"
-        }
-      ]
-    },
-    {
-      "displayName": "Media",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "logo"
-        },
-        {
-          "id": "photoGallery"
-        },
-        {
-          "id": "videos"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Social Media",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "twitterHandle"
-        },
-        {
-          "id": "facebookPageUrl"
-        },
-        {
-          "id": "instagramHandle"
-        },
-        {
-          "id": "linkedInUrl"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Enhanced Content Lists",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "productLists"
-        },
-        {
-          "id": "bios"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Additional Attributes",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "yearEstablished"
-        },
-        {
-          "id": "products"
-        },
-        {
-          "id": "services"
-        },
-        {
-          "id": "specialities"
-        },
-        {
-          "id": "associations"
-        },
-        {
-          "id": "brands"
-        },
-        {
-          "id": "languages"
-        },
-        {
-          "id": "keywords"
-        }
-      ]
-    },
-    {
-      "displayName": "Landing Pages",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "landingPageUrl"
-        }
-      ]
-    },
-    {
-      "displayName": "Additional Hours",
-      "entryType": "DIVIDER"
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Accessibility",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "onlineServiceHours"
-        },
-        {
-          "id": "seniorHours"
-        },
-        {
-          "id": "accessHours"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Order Pickup",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "pickupHours"
-        },
-        {
-          "id": "driveThroughHours"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Food and Drink",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "kitchenHours"
-        },
-        {
-          "id": "brunchHours"
-        },
-        {
-          "id": "happyHours"
-        },
-        {
-          "id": "dineInHours"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Takeout and Delivery",
-      "displayNameTranslations": [
-        {
-          "localeCode": "en",
-          "value": "Takeaway and Delivery"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "takeoutHours"
-        },
-        {
-          "id": "deliveryHours"
-        }
-      ]
-    },
-    {
-      "displayName": "Publisher Specific",
-      "entryType": "DIVIDER"
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Google Business Profile Fields",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "googleWebsiteOverride"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Apple Fields",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "appleCompanyId"
-        },
-        {
-          "id": "appleCompanyIdDqe"
-        },
-        {
-          "id": "appleBusinessId"
-        },
-        {
-          "id": "appleBusinessIdDqe"
-        },
-        {
-          "id": "appleBusinessDescription"
-        },
-        {
-          "id": "appleCoverPhoto"
-        },
-        {
-          "id": "appleActionLinks"
-        }
-      ]
-    },
-    {
-      "displayName": "Other",
-      "entryType": "DIVIDER"
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Internal Use Only",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "closed"
-        },
-        {
-          "id": "folder"
-        },
-        {
-          "id": "labels"
-        },
-        {
-          "id": "isoRegionCode"
-        },
-        {
-          "id": "deliverListingsWithoutGeocode"
-        },
-        {
-          "id": "timezone"
-        }
-      ]
-    },
-    {
-      "displayName": "Settings",
-      "entryType": "DIVIDER"
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Knowledge Assistant",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "primaryConversationContact"
-        },
-        {
-          "id": "holidayHoursConversationEnabled"
-        },
-        {
-          "id": "reviewResponseConversationEnabled"
-        },
-        {
-          "id": "nudgeEnabled"
-        }
-      ]
-    }
-  ]
+  "labels": []
 }
