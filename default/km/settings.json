@@ -8,6 +8,7 @@
     },
     {
       "entityType": "location",
+      "defaultFieldEligibilityGroup": "location.default",
       "disabled": false
     },
     {
